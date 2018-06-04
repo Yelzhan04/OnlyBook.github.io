@@ -1,0 +1,182 @@
+header{
+    background: #1c1c1c;
+    color: #d5d5d5;
+    cursor: default;
+    height: 3.5em;
+    left: 0;
+    line-height: 3m;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+}
+header .bir{
+    max-width: 65em;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+header .logo{
+    font-family: 'Pacifico', cursive;
+   display: inline-block;
+    height: inherit;
+    left: 0;
+    line-height: inherit;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 1.5em;
+    text-transform: none;
+    font-weight: normal;
+    padding: 0;
+}
+#nav{
+    display: inline-block;
+}
+header a{
+    transition: color 0.2s;
+    display: inline-block;
+    padding: 10px;    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .81em;
+    position: relative;
+    top:10px;
+       font-family: 'Poiret One', cursive;
+
+}
+a:hover{
+    transition: 0.3s;
+    transition-delay: 0s;
+    cursor: auto;
+    color:gray;
+}
+.dropdown{
+    float: right;
+    overflow: hidden;
+}
+.dropdown .drobth{
+      font-size: 0.8em;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: "Poiret One",cursive;
+    margin: 0 auto;
+    bottom:30px;
+    position: relative;
+    top:0.6em;
+    font-weight: bold;
+
+}
+.dropdoncontent{
+    display: none;
+    position: absolute;
+    background-color: #111111;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px white;
+    z-index: 1;
+}
+.bir a:hover, .dropdoncontent:hover, .drobth{
+}
+.dropdoncontent a{
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: "Poiret One";
+}
+.dropdoncontent a:hover{
+    background-color: white;
+    color: black;
+}
+.dropdown:hover .dropdoncontent{
+    display: block;
+}
+.bas{
+    height: 800px;
+    position: relative;
+    width: 100%;
+    background: url("../images/cropped-1920-1080-434098.jpg") no-repeat;
+    background-size: cover;
+
+}
+body{
+    margin: 0 auto;
+}
+#soz1{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    bottom: -50px;
+    font-family:"Imprint MT Shadow";
+    text-align: center;
+    border: 1px solid white;
+    width: 1000px;
+    margin: 0 auto;
+    top: 300px;
+}
+.button{
+    font-size: 30px;
+    width: 230px;
+    height: 60px;
+    position: relative;
+    top: 350px;
+    left: 650px;
+  background: darkkhaki;
+    border: darkkhaki;
+  color: #2b2b2b;
+    opacity: 0.9;
+  cursor: pointer;
+    transition: 1s;
+    font-family: "Poor Richard";
+}
+.button:hover {
+  background: #2b2b2b;
+  color: darkkhaki;
+}
+#soz1 a:hover{
+    transition: 10s;
+}
+
+
+.bas2{
+    position: relative;
+    height: 500px;
+}
+#soz2{
+    text-align: center;
+    font-family: Rockwell;
+    font-size: 25px;
+}
+#soz3{
+    position: relative;
+    left: 20px;
+        text-align: left;
+    font-family: Rockwell;
+    font-size: 20px;
+
+}
+#sur1{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    left: 1000px;
+    top: -120px;
+    border: 3px solid black;
+}
+#sur2{
+       position: relative;
+    height: 200px;
+    width: 150px;
+    right: 350px;
+
+    border: 3px solid black;
+
+}

@@ -1,0 +1,164 @@
+header{
+    background: #1c1c1c;
+    color: #d5d5d5;
+    cursor: default;
+    height: 3.5em;
+    left: 0;
+    line-height: 3m;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+}
+header .bir{
+    max-width: 65em;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+header .logo{
+    font-family: 'Pacifico', cursive;
+   display: inline-block;
+    height: inherit;
+    left: 0;
+    line-height: inherit;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 1.5em;
+    text-transform: none;
+    font-weight: normal;
+    padding: 0;
+}
+#nav{
+    display: inline-block;
+}
+header a{
+    transition: color 0.2s;
+    display: inline-block;
+    padding: 10px;    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .81em;
+    position: relative;
+    top:10px;
+       font-family: 'Poiret One', cursive;
+
+}
+a:hover{
+    transition: 0.3s;
+    transition-delay: 0s;
+    cursor: auto;
+    color:gray;
+}
+.dropdown{
+    float: right;
+    overflow: hidden;
+}
+.dropdown .drobth{
+      font-size: 0.8em;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: "Poiret One",cursive;
+    margin: 0 auto;
+    bottom:30px;
+    position: relative;
+    top:0.6em;
+    font-weight: bold;
+
+}
+.dropdoncontent{
+    display: none;
+    position: absolute;
+    background-color: #111111;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px white;
+    z-index: 1;
+}
+.bir a:hover, .dropdoncontent:hover, .drobth{
+}
+.dropdoncontent a{
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: "Poiret One";
+}
+.dropdoncontent a:hover{
+    background-color: white;
+    color: black;
+}
+.dropdown:hover .dropdoncontent{
+    display: block;
+}
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+#div{
+    height: 500px;
+    width: 100%;
+    font-size: 12px;
+}
+body{
+  background: white;
+  font-family: 'Pacifico', cursive;
+    position: relative;
+    top:100px
+}
+
+svg {
+    display: block;
+    font: 10.5em "Poor Richard",cursive;
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 7px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: gray;
+	animation-delay: -1s;
+}
+
+.text-copy:nth-child(2){
+	stroke: black;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #111111;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: grey;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: black;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+

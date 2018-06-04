@@ -1,0 +1,386 @@
+header{
+    background: #1c1c1c;
+    color: #d5d5d5;
+    cursor: default;
+    height: 3.5em;
+    left: 0;
+    line-height: 3m;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+}
+header .bir{
+    max-width: 65em;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+header .logo{
+    font-family: 'Pacifico', cursive;
+   display: inline-block;
+    height: inherit;
+    left: 0;
+    line-height: inherit;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 1.5em;
+    text-transform: none;
+    font-weight: normal;
+    padding: 0;
+}
+#nav{
+    display: inline-block;
+}
+header a{
+    transition: color 0.2s;
+    display: inline-block;
+    padding: 10px;    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .81em;
+    position: relative;
+    top:10px;
+       font-family: 'Poiret One', cursive;
+
+}
+a:hover{
+    transition: 0.3s;
+    transition-delay: 0s;
+    cursor: auto;
+    color:gray;
+}
+#sur1{
+    background: url("../images/1.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+
+    height: 800px;
+    position: relative;
+    margin: 0 auto;
+}
+#sur1 p{
+    text-align: center;
+    position: relative;
+    bottom:-45%;
+    font-size: 30px;
+    font-family: "Poiret One";
+    color: white;
+
+}
+body{
+    margin: 0 auto;
+}
+.div{
+       display: none;
+    position: relative;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+}
+.div a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.div a:hover{
+    background-color:black;
+}
+.class:hover~.div{
+    display: block;
+}
+#sur2{
+    height: 400px;
+    background: #111111;
+    position: relative;
+    top: -30px;
+
+}
+#p1{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top:20px;
+    font-family:"Pacifico";
+    color: white;
+}
+
+
+#sur2 image{
+    height: 100px;
+    padding-left: 80px;
+    position: relative;
+    top: 210px;
+}
+#p2{
+    position: relative;
+    font-size: 25px;
+    font-family: "Poiret One";
+    color: white;
+    text-align: center;
+    top: -200px;
+}
+#p3{
+    position: relative;
+    font-size: 35px;
+    font-family: Pacifico;
+    color: white;
+    top: -125px;
+    padding-left:320px ;
+}
+#suret3{
+
+    position: absolute;
+    float: right;
+    padding-right: 80px;
+    margin-top: -400px;
+}
+.dropdown{
+    float: right;
+    overflow: hidden;
+}
+.dropdown .drobth{
+      font-size: 0.8em;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: "Poiret One",cursive;
+    margin: 0 auto;
+    bottom:30px;
+    position: relative;
+    top:0.6em;
+    font-weight: bold;
+
+}
+.dropdoncontent{
+    display: none;
+    position: absolute;
+    background-color: #111111;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px white;
+    z-index: 1;
+}
+.bir a:hover, .dropdoncontent:hover, .drobth{
+}
+.dropdoncontent a{
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: "Poiret One";
+}
+.dropdoncontent a:hover{
+    background-color: white;
+    color: black;
+}
+.dropdown:hover .dropdoncontent{
+    display: block;
+}
+#sur3{
+    height: 1700px;
+    width: 100%;
+    background: url("../images/2096.jpg")no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -70px;
+}
+
+#p4{
+    position: relative;
+    top:20px;
+    padding-left: 500px;
+    font-size: 18px;
+    font-family: "Rage Italic";
+    font-weight: bolder;
+    border: white solid;
+    background-color: #111111;
+    color:white ;
+}
+#p5{
+    position: relative;
+    top: 10px;
+    padding-left: 200px;
+    font-family: "Rage Italic";
+    font-size: 20px;
+    font-weight: normal;
+       border: #111111 solid;
+    background-color: gray;
+    color: #111111;
+    text-align: left;
+
+}
+#p6{
+    position: relative;
+    top: 10px;
+    text-align: left;
+    font-family: "Rage Italic";
+    font-size: 30px;
+    width: 800px;
+    margin:0 auto;
+    font-weight: normal;
+
+}
+#sur5 image {
+    position: relative;
+    height: 200px;
+    width: 150px;
+    left:-70px;
+    top:10px;
+    transition: 0.2s all;
+}
+
+#sur5 image:hover{
+    transform: scale(2.5);
+    z-index: 2;
+}
+#p7{
+    position: relative;
+    top: -3px;
+    margin: 0 auto;
+    padding-left:555px;
+    font-size: 20px;
+    font-family: "Rage Italic";
+    font-weight: bold;
+    color: white;
+
+}
+
+.words{
+    background: url("../images/2096.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: -30px;
+}
+.p1{
+    margin: 0 auto;
+    border-bottom: 2px solid #43749E;
+    width: 500px;
+    font-size: 30px;
+    font-width: bold;
+    text-align: center;
+    padding: 20px;
+    font-family: "Poor Richard";
+}
+.words ul{
+    margin:0 auto;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.words ul li .nan{
+    background-color:#43749E ;
+    padding: 10px;
+    width: 225px;
+    border-bottom: 3px solid white;
+    color:white;
+    text-align: center;
+    z-index: 0;
+}
+
+.words ul li .more{
+    display: block;
+    margin-top: 10px;
+    background-color: rgba(249,249,249,0.6);
+    padding: 52px 30px;
+    font-size: 26px;
+    font-family: "Poor Richard";
+    text-align: justify;
+    width: 800px;
+    height: 190px;
+    margin: 0 auto;
+}
+
+.words ul li{
+    display: block;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 5px;
+}
+.words ul li img{
+    display: inline-block;
+    float: left;
+    z-index: 1;
+}
+#hr{
+    position: relative;
+    width: 730px;
+    bottom: -80px;
+}
+image #sur6{
+     position: relative;
+    height: 50px;
+    width: 50px;
+    top:-5px;
+    transition: 0.2s all;
+}
+#p0{
+    position: relative;
+    font-size: 40px;
+    top: 40px;
+    font-family: "Poor Richard";
+    font-weight: bold;
+    padding-left: 500px;
+}
+footer{
+    height: 150px;
+    background: #111111;
+}
+/*.insta{*/
+    /*position: relative;*/
+    /*height: 50px;*/
+    /*top: 50px;*/
+/*}*/
+/*.vk{*/
+    /*height: 50px;*/
+    /*top: 50px;*/
+    /*position: relative;*/
+/*}*/
+/*.sdcl{*/
+    /*position: relative;*/
+    /*top: 50px;*/
+        /*height: 50px;*/
+    /*left: 10px;*/
+/*}*/
+footer image{
+    position: relative;
+    height: 50px;
+    top: 35px;
+    padding: 5px;
+    left: 620px;
+
+}
+#fsoz1{
+    position: relative;
+    text-align: center;
+    font-family: Rockwell; ;
+    color: white;
+    bottom: 65px;
+    font-size: 20px;
+    border-bottom: 3px solid wheat;
+    width: 300px;
+    margin: 0 auto;
+    border-bottom-style: groove;
+}
+#fsoz2{
+    color: white;
+    font-family: Rockwell;
+    position: relative;
+    text-align: center;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    width: 350px;
+    margin: 0 auto;
+    top: 20px;
+
+}
